@@ -1,0 +1,94 @@
+.card {
+    display: flex;
+    align-items: right;
+    width: 700px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.card-image {
+    flex: 1;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-content {
+    flex: 1;
+    float: right;
+    width: 60%;
+    padding: 16px;
+}
+
+.card-content h2 {
+    margin-left: 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: rgb(26,33,39);
+}
+
+.card-content p {
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(119,121,136);
+    margin-bottom: 16px;
+}
+
+.card-content p1 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgb(139,139,147);
+}
+
+.card-content p2 {
+    font-family: 'Fraunces', serif;
+    margin-left: 20px;
+    font-size: 32px;
+    color: rgb(60,129,103);
+}
+
+.card-content p3 {
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(139,139,147);
+}
+
+.add-Cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-family: 'Montserrat', serif;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(61,129,104);
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
